@@ -36,7 +36,7 @@ class SparseMatrix:
         for (row, col), value in other_matrix.data.items():
             result.set_value(row, col, result.get_value(row, col) + value)
         
-        return result
+        return 'Hello'
 
     def to_dense_matrix(self):
         # Convert the sparse matrix to a dense matrix
